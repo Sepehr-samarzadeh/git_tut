@@ -1,0 +1,103 @@
+- [Git Commands](#git-commands)
+  - [git init](#git-init)
+  - [git clone](#git-clone)
+  - [git add](#git-add)
+  - [git commit](#git-commit)
+  - [git status](#git-status)
+  - [git log](#git-log)
+  - [git branch](#git-branch)
+  - [git checkout](#git-checkout)
+  - [git merge](#git-merge)
+  - [git pull](#git-pull)
+  - [git push](#git-push)
+  - [git remote](#git-remote)
+  - [git diff](#git-diff)
+  - [git reset](#git-reset)
+  - [git rm](#git-rm)
+  - [git tag](#git-tag)
+  - [git fetch](#git-fetch)
+  - [git remote add](#git-remote-add)
+  - [git stash](#git-stash)
+
+## Git Commands
+
+### git init
+
+Initializes a new Git repository, creating a new `.git` subfolder in the current working directory.
+
+### git clone [repository_url]
+
+Creates a copy of a remote repository on your local machine.
+
+### git add [file]
+
+Adds a file or changes in a file to the staging area, preparing it for a commit.
+
+### git commit -m "[commit_message]"
+
+Records changes to the repository with a descriptive commit message.
+
+### git status
+
+Displays the status of changes as untracked, modified, or staged.
+
+### git log
+
+Shows a log of all commits in the repository.
+
+### git branch
+
+Lists all local branches in the repository.
+
+### git branch [branch_name]
+
+Creates a new branch with the specified name.
+
+### git checkout [branch_name]
+
+Switches to the specified branch.
+
+### git merge [branch_name]
+
+Merges changes from the specified branch into the current branch.
+
+### git pull
+
+Fetches changes from a remote repository and merges them into the current branch.
+
+### git push [remote] [branch]
+
+Pushes changes to a remote repository.
+
+### git remote -v
+
+Lists all remote repositories configured for the current repository.
+
+### git diff
+
+Shows the differences between the working directory and the staging area.
+
+### git reset [file]
+
+Unstages a file, or undoes changes in the working directory.
+
+### git rm [file]
+
+Removes a file from both the working directory and the Git repository.
+
+### git tag [tag_name]
+
+Creates a lightweight tag at the current commit.
+
+### git fetch
+
+Downloads changes from a remote repository without merging them.
+
+### git remote add [remote_name] [remote_url]
+
+Adds a new remote repository with a specified name and URL.
+
+### git stash
+
+Temporarily saves changes that are not ready to be committed.
+
